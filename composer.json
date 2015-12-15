@@ -12,6 +12,5 @@
     "autoload": {
         "psr-0": { "MSP\\Multisafepayment": "src" }
     },
-    "minimum-stability": "dev",
-    "target-dir": "MSP/Multisafepayment"
+    "minimum-stability": "dev"
 }
