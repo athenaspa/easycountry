@@ -13,5 +13,5 @@
         "psr-0": { "MSP\\Multisafepayment": "src" }
     },
     "minimum-stability": "dev",
-    "target-dir": "MSP/Multisafepayment",
+    "target-dir": "MSP/Multisafepayment"
 }
