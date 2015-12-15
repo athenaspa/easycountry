@@ -1,19 +1,17 @@
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "athenaspa/multisafepay",
-            "version": "dev-master",
-            "source": {
-                "url": "git@github.com:athenaspa/multisafepay.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "MSP\\Multisafepay" : "src"
-                }
-            }
+{
+    "name": "athenaspa/multisafepay",
+    "description": "MultiSafepay gateway",
+    "homepage": "https://github.com/athenaspa/multisafepay",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Johannes M. Schmitt",
+            "email": "schmittjoh@gmail.com"
         }
-    }
-],
+    ],
+    "autoload": {
+        "psr-0": { "MSP\\Multisafepayment": "src" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "MSP/Multisafepayment",
+}
