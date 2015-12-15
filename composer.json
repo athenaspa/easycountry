@@ -5,7 +5,7 @@
             "name": "athenaspa/multisafepay",
             "version": "dev-master",
             "source": {
-                "url": "https://github.com/athenaspa/multisafepay.git",
+                "url": "git@github.com:athenaspa/multisafepay.git",
                 "type": "git",
                 "reference": "master"
             },
