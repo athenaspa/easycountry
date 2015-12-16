@@ -17,7 +17,7 @@ class Client {
     public $api_endpoint;
     public $request;
     public $response;
-	  public $debug;
+    public $debug;
 
     public function __construct() {
         $this->orders = new Orders($this);
@@ -82,7 +82,7 @@ class Client {
 		}
 
         if (curl_errno($ch)) {
-            throw new Exception("Unable to communicatie with the MultiSafepay payment server (" . curl_errno($ch) . "): " . curl_error($ch) . ".");
+            throw new \Exception("Unable to communicatie with the MultiSafepay payment server (" . curl_errno($ch) . "): " . curl_error($ch) . ".");
         }
 
 		curl_close($ch);
