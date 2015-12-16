@@ -48,7 +48,7 @@ class Client {
 
     public function processAPIRequest($http_method, $api_method, $http_body = NULL) {
         if (empty($this->api_key)) {
-            throw new Exception("Please configure your MultiSafepay API Key.");
+            throw new \Exception("Please configure your MultiSafepay API Key.");
         }
 
         $url = $this->api_url . $api_method;
