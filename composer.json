@@ -10,7 +10,16 @@
         }
     ],
     "autoload": {
-        "psr-0": { "MSP\\Multisafepay": "src" }
+      "classmap": [
+        "src/Client.php",
+        "src/Core.php",
+        "src/Gateways.php",
+        "src/Issuers.php",
+        "src/Orders.php"
+      ],
+      "psr-4": {
+        "Msp\\":"src/"
+      }
     },
     "minimum-stability": "dev"
 }

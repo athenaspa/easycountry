@@ -1,5 +1,5 @@
 <?php
-namespace MSP\Multisafepay\Gateways;
+namespace Msp;
 
 class Gateways extends Core {
 

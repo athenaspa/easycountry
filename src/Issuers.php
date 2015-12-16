@@ -1,5 +1,5 @@
 <?php
-namespace MSP\Multisafepay\Core\Issuers;
+namespace Msp;
 
 class Issuers extends Core {
 

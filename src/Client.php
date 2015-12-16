@@ -1,10 +1,10 @@
 <?php
 
-namespace MSP\Multisafepay;
-use MSP\Multisafepay\Core;
-use MSP\Multisafepay\Gateways;
-use MSP\Multisafepay\Issuers;
-use MSP\Multisafepay\Orders;
+namespace Msp;
+use Msp\Core;
+use Msp\Gateways;
+use Msp\Issuers;
+use Msp\Orders;
 
 class Client {
 
@@ -20,9 +20,9 @@ class Client {
 	  public $debug;
 
     public function __construct() {
-        $this->orders = new Object_Orders($this);
-        $this->issuers = new Object_Issuers($this);
-        $this->gateways = new Object_Gateways($this);
+        $this->orders = new Orders($this);
+        $this->issuers = new  Issuers($this);
+        $this->gateways = new  Gateways($this);
     }
 
     public function getRequest() {

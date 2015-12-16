@@ -1,5 +1,5 @@
 <?php
-namespace MSP\Multisafepay\Core;
+namespace Msp;
 
 class Core {
 

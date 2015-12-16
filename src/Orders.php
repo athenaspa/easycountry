@@ -1,5 +1,5 @@
 <?php
-namespace MSP\Multisafepay\Core\Orders;
+namespace Msp;
 
 class Orders extends Core {
 
