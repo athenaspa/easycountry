@@ -15,7 +15,8 @@
         "src/Core.php",
         "src/Gateways.php",
         "src/Issuers.php",
-        "src/Orders.php"
+        "src/Orders.php",
+        "src/Countries.php"
       ],
       "psr-4": {
         "Msp\\":"src/"

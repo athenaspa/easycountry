@@ -53,6 +53,8 @@ class fastcheckout
         $msp->setApiKey($this->api_key);
         $msp->setApiUrl($this->api_url);
 
+		$countries = new Msp\Countries;
+		
         try
           {
 
@@ -89,7 +91,7 @@ class fastcheckout
                     "zip_code" => "1032 SC",
                     "city" => "Amsterdam",
                     "state" => "",
-                    "country" => "NL",
+                    "country" => $countries->getIdFromName("Netherlands"),
                     "phone" => "0208500500",
                     "email" => "test@test.nl"
                 ),
