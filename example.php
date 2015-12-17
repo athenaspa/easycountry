@@ -53,7 +53,7 @@ class fastcheckout
         $msp->setApiKey($this->api_key);
         $msp->setApiUrl($this->api_url);
 
-		$countries = new Msp\Countries;
+	$countries = new Msp\Countries;
 		
         try
           {
