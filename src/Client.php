@@ -2,16 +2,12 @@
 
 namespace Msp;
 use Msp\Core;
-use Msp\Gateways;
-use Msp\Issuers;
 use Msp\Orders;
 
 class Client {
 
     public $orders;
-    public $issuers;
     public $transactions;
-    public $gateways;
     protected $api_key;
     public $api_url;
     public $api_endpoint;
@@ -21,8 +17,6 @@ class Client {
 
     public function __construct() {
         $this->orders = new Orders($this);
-        $this->issuers = new  Issuers($this);
-        $this->gateways = new  Gateways($this);
     }
 
     public function getRequest() {
