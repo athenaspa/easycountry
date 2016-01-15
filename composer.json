@@ -13,8 +13,6 @@
       "classmap": [
         "src/Client.php",
         "src/Core.php",
-        "src/Gateways.php",
-        "src/Issuers.php",
         "src/Orders.php",
         "src/Countries.php"
       ],
