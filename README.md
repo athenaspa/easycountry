@@ -18,7 +18,10 @@ Put this in your composer.json
         "url": "https://github.com/athenaspa/multisafepay.git"
     }],
     "autoload": {
-        "files": ["vendor/multisafepay/api/models/API/Autoloader.php"]
+        "files": ["vendors/multisafepay/api/models/API/Autoloader.php"]
+    },
+    "config": {
+        "vendor-dir": "vendors"
     }
 }
 ```
