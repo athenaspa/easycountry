@@ -14,23 +14,11 @@
         "src/Client.php",
         "src/Core.php",
         "src/Orders.php",
-        "src/Countries.php"
+        "src/Countries.php",
       ],
-      "psr-4": {
-        "Msp\\":"src/"
-      },
-      "psr-0": {
-         "Msp\\": "src/"
-      }
     },
   "require": {
-    "multisafepay/api": "dev-master"
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/MultiSafepay/PHP.git"
-    }
-  ],
+    "multisafepay/api": "2.0.0"
+  }
     "minimum-stability": "dev"
 }
