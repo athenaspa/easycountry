@@ -1,1 +1,5 @@
-See example.php for a common case of use.
+# Wrapper for Multisafepay Library
+
+https://www.multisafepay.com/documentation/doc/API-Reference/
+
+https://github.com/MultiSafepay/PHP
