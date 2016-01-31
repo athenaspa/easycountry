@@ -18,7 +18,8 @@
       ]
     },
   "require": {
-    "multisafepay/api": "2.0.0"
+    "multisafepay/api": "2.0.0",
+    "guzzlehttp/guzzle": "5.*"
   },
     "minimum-stability": "dev"
 }
