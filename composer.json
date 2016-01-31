@@ -16,9 +16,7 @@
         "src/Orders.php",
         "src/Countries.php"
       ],
-      "psr-0": {
-            "multisafepay\\api": "models/API/Autoloader.php"
-        }
+      "files": ["vendor/multisafepay/api/models/API/Autoloader.php"]
     },
   "require": {
     "multisafepay/api": "2.0.0"
