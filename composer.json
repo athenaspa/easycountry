@@ -15,7 +15,7 @@
         "src/Core.php",
         "src/Orders.php",
         "src/Countries.php",
-      ],
+      ]
     },
   "require": {
     "multisafepay/api": "2.0.0"
