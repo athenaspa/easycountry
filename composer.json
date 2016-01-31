@@ -15,8 +15,9 @@
         "src/Core.php",
         "src/Orders.php",
         "src/Countries.php",
-        "multisafepay\\api": "models/API",
-        "multisafepay\\api": "models/API/Object",
+        "models/API/Client.php",
+        "models/API/Object/Core.php",
+        "models/API/Object/Orders.php"
       ]
     },
   "require": {
