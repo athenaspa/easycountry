@@ -1,9 +1,6 @@
 <?php
 namespace Msp;
 use Client as BaseClient;
-use Msp\Orders;
-use Exception;
-
 
 /**
  * Class Client
