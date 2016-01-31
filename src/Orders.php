@@ -1,34 +1,13 @@
 <?php
 namespace Msp;
+use Object_Orders;
 
-class Orders extends Core {
+/**
+ * Class Orders
+ * @package Msp
+ */
+class Orders extends Object_Orders {
 
-  public $success;
-  public $data;
 
-  public function patch($body, $endpoint = '') {
-    $result = parent::patch(json_encode($body), $endpoint);
-    $this->success = $result->success;
-    $this->data = $result->data;
-    return $result;
-  }
-
-  public function get($type = 'orders', $id, $body = array(), $query_string = false) {
-    $result = parent::get($type, $id, $body, $query_string);
-    $this->success = $result->success;
-    $this->data = $result->data;
-    return $this->data;
-  }
-
-  public function post($body, $endpoint = 'orders') {
-    $result = parent::post(json_encode($body), $endpoint);
-    $this->success = $result->success;
-    $this->data = $result->data;
-    return $this->data;
-  }
-
-  public function getPaymentLink() {
-    return $this->data->payment_url;
-  }
 
 }
