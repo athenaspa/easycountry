@@ -1,9 +1,16 @@
 <?php
 namespace Msp;
 
+/**
+ * Class Countries
+ * @package Msp
+ */
 class Countries {
 
-  public $countries_list = array (
+	/**
+	 * @var array
+     */
+	public $countries_list = array (
 	'AF' => 'Afghanistan',
 	'AX' => 'Aland Islands',
 	'AL' => 'Albania',
@@ -251,6 +258,10 @@ class Countries {
 	'ZW' => 'Zimbabwe',
 );
 
+	/**
+	 * @param $country_name
+	 * @return mixed
+     */
 	function getIdFromName($country_name) {
 		$flipped = array_flip($this->countries_list);
 		return $flipped[$country_name];
