@@ -14,11 +14,13 @@
         "src/Client.php",
         "src/Core.php",
         "src/Orders.php",
-        "src/Countries.php",
-        "models/API/Client.php",
-        "models/API/Object/Core.php",
-        "models/API/Object/Orders.php"
-      ]
+        "src/Countries.php"
+      ],
+      "psr-0": {
+            "multisafepay\\api": "models/API/Client.php",
+            "multisafepay\\api": "models/API/Object/Core.php",
+            "multisafepay\\api": "models/API/Object/Orders.php"
+        }
     },
   "require": {
     "multisafepay/api": "2.0.0"
