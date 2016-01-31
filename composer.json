@@ -17,9 +17,7 @@
         "src/Countries.php"
       ],
       "psr-0": {
-            "multisafepay\\api": "models/API/Client.php",
-            "multisafepay\\api": "models/API/Object/Core.php",
-            "multisafepay\\api": "models/API/Object/Orders.php"
+            "multisafepay\\api": "models/API/Autoloader.php"
         }
     },
   "require": {
