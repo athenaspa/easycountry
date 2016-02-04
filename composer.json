@@ -12,7 +12,6 @@
     "autoload": {
       "classmap": [
         "src/Client.php",
-        "src/Core.php",
         "src/Orders.php",
         "src/Countries.php"
       ]
