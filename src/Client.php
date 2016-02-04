@@ -8,12 +8,6 @@ use Client as BaseClient;
  */
 class Client extends BaseClient {
 
-    /**
-     * Client constructor.
-     */
-    public function __construct() {
-        $this->orders = new Orders($this);
-    }
 
 }
 
