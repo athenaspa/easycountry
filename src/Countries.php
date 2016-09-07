@@ -1,7 +1,7 @@
 <?php
-namespace Msp;
+namespace EasyCountry;
 
-use Rinvex\Country\Models\Country;
+use SameerShelavale\PhpCountriesArray\CountriesArray;
 
 /**
  * Class Countries
@@ -9,6 +9,13 @@ use Rinvex\Country\Models\Country;
  */
 class Countries
 {
+    /**
+     * @return array
+     */
+    function getCountriesList() {
+        $countries = CountriesArray::get();
+        return $countries;
+    }
 
     /**
      * @param $country_name
@@ -16,8 +23,8 @@ class Countries
      */
     function getIdFromName($country_name)
     {
-        $countries = (new Country)->findAll()->pluck('name.common', 'iso_3166_1_alpha2');
-        $flipped = array_flip($countries->toArray());
+        $countries = $this->getCountriesList();
+        $flipped = array_flip($countries);
         return $flipped[$country_name];
     }
 }
