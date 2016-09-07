@@ -1,12 +1,12 @@
 <?php
 namespace Msp;
-use Client as BaseClient;
+use MultiSafepayAPI\Client as BaseClient;
 
 /**
- * Class Client
+ * Class AthenaClient
  * @package Msp
  */
-class Client extends BaseClient {
+class AthenaClient extends BaseClient {
 
 
 }
