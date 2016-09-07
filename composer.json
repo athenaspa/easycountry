@@ -14,7 +14,7 @@
     },
   "require": {
     "multisafepay/api": "2.*",
-    "rinvex/country": "^1.0"
+    "sameer-shelavale/php-countries-array": "^1.0"
   },
     "minimum-stability": "dev"
 }
