@@ -14,7 +14,7 @@
     },
   "require": {
     "multisafepay/api": "2.*",
-    "giggsey/locale": "^1.0"
+    "rinvex/country": "^1.0"
   },
     "minimum-stability": "dev"
 }
