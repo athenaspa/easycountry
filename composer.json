@@ -10,10 +10,12 @@
         }
     ],
     "autoload": {
-        "psr-4": { "EasyCountry\\": "src" }
+        "psr-4": {
+            "EasyCountry\\": "src"
+        }
     },
-  "require": {
-    "sameer-shelavale/php-countries-array": "^1.0"
-  },
+    "require": {
+        "sameer-shelavale/php-countries-array": "^1.0"
+    },
     "minimum-stability": "dev"
 }
