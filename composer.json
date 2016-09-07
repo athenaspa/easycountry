@@ -1,7 +1,7 @@
 {
-    "name": "athenaspa/multisafepay",
-    "description": "MultiSafepay gateway",
-    "homepage": "https://github.com/athenaspa/multisafepay",
+    "name": "athenaspa/easycountry",
+    "description": "Easy Country",
+    "homepage": "https://github.com/athenaspa/easycountry",
     "license": "Apache2",
     "authors": [
         {
@@ -10,10 +10,9 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Msp\\": "src" }
+        "psr-4": { "EasyCountry\\": "src" }
     },
   "require": {
-    "multisafepay/api": "2.*",
     "sameer-shelavale/php-countries-array": "^1.0"
   },
     "minimum-stability": "dev"
