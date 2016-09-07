@@ -3,10 +3,10 @@ namespace Msp;
 use MultiSafepayAPI\Client as BaseClient;
 
 /**
- * Class AthenaClient
+ * Class CustomClient
  * @package Msp
  */
-class AthenaClient extends BaseClient {
+class CustomClient extends BaseClient {
 
 
 }
