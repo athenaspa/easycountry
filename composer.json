@@ -10,10 +10,7 @@
         }
     ],
     "autoload": {
-      "classmap": [
-        "src/MspClient.php",
-        "src/Countries.php"
-      ]
+        "psr-4": { "Msp\\": "src" }
     },
   "require": {
     "multisafepay/api": "2.*"
