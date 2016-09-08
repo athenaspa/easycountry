@@ -5,7 +5,7 @@ use SameerShelavale\PhpCountriesArray\CountriesArray;
 
 /**
  * Class Countries
- * @package Msp
+ * @package EasyCountry
  */
 class Countries
 {
